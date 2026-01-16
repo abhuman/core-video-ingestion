@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IngestionState(Enum):
+    RECEIVED = "RECEIVED"
+    VALIDATING_METADATA = "VALIDATING_METADATA"
+    VALIDATING_VIDEO = "VALIDATING_VIDEO"
+    PASSED = "PASSED"
+    FAILED = "FAILED"
