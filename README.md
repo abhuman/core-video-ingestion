@@ -107,12 +107,4 @@ Run Application
 ```bash
 python app.py
 ```
-```md
-### Create Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate   # Linux / macOS
-venv\Scripts\activate      # Windows
-
-
 
